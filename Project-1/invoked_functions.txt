@@ -1,0 +1,26 @@
+/* @Author
+ * Student Name:  Eda Işık
+ * Student ID : 150200089
+ */
+
+university_array[3].evaluate_student(student3);
+    evaluate_student method is invoked by university_array[3] object and student3 object is sent to the evaluate_student method.
+
+        double perceptron = this->GPA * student.get_GPA() + this->GRE * student.get_GRE() + this->TOEFL * student.get_TOEFL() + this->bias;
+            get_GPA, get_GRE and get_TOEFL methods are invoked by the object that is the parameter of evaluate_student method
+            
+        std::cout << student.get_name() << " is admitted to " << this->name << "." << std::endl;
+        std::cout << student.get_name() << " is rejected from " << this->name << "." << std::endl;
+            get_name method in invoked by the object that is the parameter of evaluate_student method
+        
+        student.update_applications();
+            update_applications method in invoked by the object that is the parameter of evaluate_student method
+    
+delete student4
+    Destructor method of the student class is invoked by the student4 pointer
+
+    Destructor method of the student class is invoked by the student3 object
+    Destructor method of the student class is invoked by the student2 object
+    Destructor method of the student class is invoked by the student1 object
+
+    After all, default destructor of university class is invoked by the university_array elements
